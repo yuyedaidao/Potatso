@@ -13,7 +13,7 @@ def library
     pod 'KissXML/libxml_module'
     pod 'ICSMainFramework', :path => "./Library/ICSMainFramework/"
     pod 'MMWormhole', '~> 2.0.0'
-    pod 'KeychainAccess'
+    pod 'KeychainAccess', '~> 2.4'
 end
 
 def tunnel
