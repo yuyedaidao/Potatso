@@ -30,22 +30,23 @@ end
 
 target "Potatso" do
     pod 'Aspects', :path => "./Library/Aspects/"
-    pod 'Cartography'
-    pod 'AsyncSwift'
+    pod 'Cartography', '0.7.0'
+    pod 'AsyncSwift', '1.7.4'
     pod 'SwiftColor', '~> 0.3.7'
     pod 'Appirater'
     pod 'Eureka', '~> 1.6.0'
     pod 'MBProgressHUD'
-    pod 'CallbackURLKit'
+    pod 'CallbackURLKit', '0.2.0'
     pod 'ICDMaterialActivityIndicatorView', '~> 0.1.0'
     pod 'Reveal-iOS-SDK', '~> 1.6.2', :configurations => ['Debug']
-    pod 'ICSPullToRefresh', '~> 0.4'
+    pod 'ICSPullToRefresh', '0.4'
     pod 'ISO8601DateFormatter', '~> 0.8'
-    pod 'Alamofire'
-    pod 'ObjectMapper'
+    pod 'Alamofire', '~> 3.0'
+    pod 'ObjectMapper', '~> 1.0'
     pod 'CocoaLumberjack/Swift'
     pod 'Helpshift', '5.6.1'
     pod 'PSOperations', '~> 2.3'
+    pod 'CocoaLumberjack', '2.2.0'
     pod 'LogglyLogger-CocoaLumberjack', '~> 2.0'
     tunnel
     library
@@ -64,8 +65,8 @@ target "PacketProcessor" do
 end
 
 target "TodayWidget" do
-    pod 'Cartography'
-    pod 'SwiftColor'
+    pod 'Cartography', '0.7.0'
+    pod 'SwiftColor', '~> 0.3.7'
     library
     socket
     model

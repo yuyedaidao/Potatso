@@ -13,7 +13,7 @@ import Fabric
 import LogglyLogger_CocoaLumberjack
 
 let appID = "1070901416"
-
+let LOGGLY_KEY = ""
 class AppInitializer: NSObject, AppLifeCycleProtocol {
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {

@@ -10,6 +10,8 @@ import Foundation
 import ICSMainFramework
 import LogglyLogger_CocoaLumberjack
 
+let LogglyLoggerForceUploadNotification = "LogglyLoggerForceUploadNotification"
+
 class FeedbackManager {
     static let shared = FeedbackManager()
 
